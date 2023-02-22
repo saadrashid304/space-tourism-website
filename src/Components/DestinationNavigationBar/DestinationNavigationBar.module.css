@@ -1,0 +1,19 @@
+.navbar_destContainer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: #D0D6F9;
+    width: 14vw;
+    height: 3vh;
+    font-size: 1rem;
+}
+
+.navbar_destContainer div:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.navbar_destActiveLink {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}

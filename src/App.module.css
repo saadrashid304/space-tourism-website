@@ -1,0 +1,15 @@
+.body_homeImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Assets/homeDesktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.body_destinationImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Assets/destinationDesktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}

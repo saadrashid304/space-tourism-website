@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import styles from "./App.module.css";
+import Home from "./Components/Home/Home";
+import Destination from "./Components/Destination/Destination";
+import { useSelector } from "react-redux";
+import { Routes, Route, Navigate } from "react-router-dom";
 
-function App() {
+const App = () => {
+  const activeNavLink = useSelector((state) => state.activeNavLink);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className={`${activeNavLink === "Home" && styles.body_homeImage} ${
+        activeNavLink === "Destination" && styles.body_destinationImage
+      }`}
+    >
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/destination" element={<Destination />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
