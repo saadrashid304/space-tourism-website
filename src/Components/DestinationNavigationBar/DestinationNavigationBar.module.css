@@ -31,3 +31,11 @@
         margin-top: 0vh;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .navbar_destContainer {
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 0vh;
+    }
+}

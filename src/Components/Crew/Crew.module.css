@@ -210,3 +210,48 @@
         width: 50vw;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .crew_mainContainer {
+        flex-direction: column;
+    }
+
+    .crew_leftContainer {
+        width: 100vw;
+        margin-left: 0vw;
+    }
+
+    .crew_title {
+        margin-top: 0vh;
+    }
+
+    .crew_role {
+        margin-top: 2vh;
+    }
+
+    .crew_name {
+        text-align: center;
+        margin-top: 3vh;
+        font-size: 2rem;
+    }
+
+    .crew_bio {
+        text-align: center;
+        margin-top: 1vh;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 10vh;
+        padding: 0px;
+        font-size: 1.2rem;
+    }
+
+    .crew_rightContainer {
+        left: 25vw;
+        bottom: 0px;
+    }
+
+    .crew_rightContainer img {
+        height: 35vh;
+        width: 50vw;
+    }
+}

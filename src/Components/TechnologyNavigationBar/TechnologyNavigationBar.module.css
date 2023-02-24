@@ -68,3 +68,11 @@
         width: 40vw;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .navbar_techContainer {
+        flex-direction: row;
+        height: auto;
+        width: 60vw;
+    }
+}

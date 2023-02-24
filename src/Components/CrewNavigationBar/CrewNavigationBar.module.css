@@ -42,3 +42,11 @@
         width: 18vw;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .navbar_crewContainer {
+        margin-top: 12vh;
+        margin-left: 30vw;
+        width: 38vw;
+    }
+}

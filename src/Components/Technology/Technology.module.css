@@ -218,5 +218,39 @@
         width: 100vw;
         background-size: 100vw;
     }
+}
 
+@media screen and (max-width: 375px) {
+    .tech_title {
+        margin-top: 2vh;
+    }
+
+    .tech_rightContainer {
+        top: 20vh;
+    }
+
+    .tech_leftContainer {
+        width: 80vw;
+    }
+
+    .tech_leftMainContainer {
+        margin-top: 30vh;
+    }
+
+    /* .tech_leftMainContainer div {
+        margin-bottom: 1vh;
+    } */
+
+    .tech_name_title {
+        line-height: 0;
+    }
+
+    .tech_name {
+        font-size: 2rem;
+    }
+
+    .tech_desc {
+        width: 90vw;
+        margin-left: 3vw;
+    }
 }
