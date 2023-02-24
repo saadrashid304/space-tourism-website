@@ -3,7 +3,6 @@ import styles from "./Destination.module.css";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import DestinationNavigationBar from "../DestinationNavigationBar/DestinationNavigationBar";
 import { setActiveNavLink } from "../../Store/Action/ActiveNavLinkAction";
-import moon from "../../Assets/image-moon.webp";
 import { useDispatch, useSelector } from "react-redux";
 import { data } from "../../Assets/data";
 

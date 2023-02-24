@@ -1,0 +1,44 @@
+.navbar_crewContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 14vw;
+    margin-top: 12.8vh;
+}
+
+.crewDiv {
+    border-radius: 100%;
+    background-color: #fff;
+    opacity: 0.17;
+    width: 15px;
+    height: 15px;
+}
+
+.crewDiv:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.navbar_crewActiveLink {
+    opacity: 1;
+}
+
+/* @media screen and (max-width: 1046px) {
+    .navbar_crewContainer {
+        margin-top: 9vh;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .navbar_crewContainer {
+        margin-top: 1vh;
+        margin-left: 42vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar_crewContainer {
+        margin-top: 5vh;
+        margin-left: 42vw;
+        width: 18vw;
+    }
+}

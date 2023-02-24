@@ -13,3 +13,87 @@
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
+
+.body_crewImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Assets/crewDesktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.body_techImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Assets/techDesktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .body_homeImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/homeTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_destinationImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/destinationTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_crewImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/crewTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_techImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/techTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .body_homeImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/homeMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_destinationImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/destinationMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_crewImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/crewMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .body_techImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Assets/techMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+}

@@ -4,9 +4,11 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import explore from "../../Assets/explore.svg";
 import { useDispatch } from "react-redux";
 import { setActiveNavLink } from "../../Store/Action/ActiveNavLinkAction";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(setActiveNavLink("Home"));
@@ -26,7 +28,13 @@ const Home = () => {
             world experience!
           </p>
         </div>
-        <div className={styles.home_exploreContainer}>
+        <div
+          className={styles.home_exploreContainer}
+          onClick={() => {
+            dispatch(setActiveNavLink("Destination"));
+            navigate("/destination");
+          }}
+        >
           <img src={explore} alt="" />
         </div>
       </div>

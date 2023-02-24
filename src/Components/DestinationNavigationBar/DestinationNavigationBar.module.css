@@ -17,3 +17,17 @@
 .navbar_destActiveLink {
     border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 1088px) {
+    .navbar_destContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar_destContainer {
+        width: 40vw;
+        margin-left: 30vw;
+        margin-top: 0vh;
+    }
+}
