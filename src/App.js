@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import styles from "./App.module.css";
 import Home from "./Components/Home/Home";
 import Destination from "./Components/Destination/Destination";

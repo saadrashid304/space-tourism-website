@@ -14,7 +14,7 @@ const Technology = () => {
 
   useEffect(() => {
     dispatch(setActiveNavLink("Technology"));
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     for (let i = 0; i < data.technology.length; i++) {
@@ -27,7 +27,7 @@ const Technology = () => {
 
   useEffect(() => {
     setMedia(window.innerWidth);
-  });
+  }, [media]);
 
   return (
     <Fragment>
